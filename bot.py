@@ -95,7 +95,7 @@ async def report(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         await update.message.reply_text(summary)
     else:
-        print("No message in this update")
+        print("No message in this updates")
 
 # Main entry
 def main():
