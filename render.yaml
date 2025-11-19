@@ -2,8 +2,10 @@ services:
   - type: web
     name: telegram-payment-bot
     env: python
-    buildCommand: ""
-    startCommand: python bot.py
+    region: oregon
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python bot.py"
     envVars:
       - key: BOT_TOKEN
         sync: false
