@@ -96,7 +96,7 @@ async def report(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(summary)
     else:
         print("No records found in this updates for report3")
-        print("testing if push to main is prohibited v2")
+        print("testing if push to main is prohibited v3")
 
 # Main entry
 def main():
